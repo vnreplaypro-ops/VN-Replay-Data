@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "service": "VN Replay Data",
+  "repository": "vnreplaypro-ops/VN-Replay-Data",
+  "release_tag": "DATA",
+  "data_format": "parquet",
+  "tick_model": {
+    "type": "synthetic_intraminute",
+    "ticks_per_minute": 10
+  },
+  "defaults": {
+    "timezone": "UTC",
+    "compression": "zstd"
+  },
+  "symbols": {}
+}

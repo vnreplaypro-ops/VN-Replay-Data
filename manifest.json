@@ -1206,27 +1206,57 @@
         {
           "period": "2026-08",
           "file": "GOLD_2026_08.parquet",
-          "rows": 27580,
-          "size_bytes": 166722,
-          "sha256": "b71495c39daeaa2955a4d450b33d458834a0b5c00d8154675b822c8d82206997",
+          "rows": 289550,
+          "size_bytes": 1837011,
+          "sha256": "1e2cb02ae22282c9ed3d49db1b4b3c3c49954e0fbc5f38b78e05f1f0d8713039",
           "start": "2026-08-03T01:00:00",
-          "end": "2026-08-04T23:58:59",
+          "end": "2026-08-31T23:58:59",
           "digits": 2,
           "ticks_per_minute": 10,
-          "source_file": "GOLD_M1_202601020800_202608042358.csv",
-          "updated_at": "2026-09-28T02:04:17Z",
+          "source_file": "GOLD_M1_202608030100_202610022357.csv",
+          "updated_at": "2026-10-04T02:05:35Z",
           "download_url": "https://github.com/vnreplaypro-ops/VN-Replay-Data/releases/download/DATA/GOLD_2026_08.parquet",
+          "revision": 2
+        },
+        {
+          "period": "2026-09",
+          "file": "GOLD_2026_09.parquet",
+          "rows": 301800,
+          "size_bytes": 1883137,
+          "sha256": "0e2b2a254a4abed63d02bce1d437c9c0ba35943c1b63d6c4dc9c207ef96702bf",
+          "start": "2026-09-01T01:00:00",
+          "end": "2026-09-30T23:58:59",
+          "digits": 2,
+          "ticks_per_minute": 10,
+          "source_file": "GOLD_M1_202608030100_202610022357.csv",
+          "updated_at": "2026-10-04T02:05:51Z",
+          "download_url": "https://github.com/vnreplaypro-ops/VN-Replay-Data/releases/download/DATA/GOLD_2026_09.parquet",
+          "revision": 1
+        },
+        {
+          "period": "2026-10",
+          "file": "GOLD_2026_10.parquet",
+          "rows": 27570,
+          "size_bytes": 173112,
+          "sha256": "3272b6764ddd3b07e34726b11f556a1599b2f9afb7616bb4fc6c83331e3ebc66",
+          "start": "2026-10-01T01:00:00",
+          "end": "2026-10-02T23:57:59",
+          "digits": 2,
+          "ticks_per_minute": 10,
+          "source_file": "GOLD_M1_202608030100_202610022357.csv",
+          "updated_at": "2026-10-04T02:05:56Z",
+          "download_url": "https://github.com/vnreplaypro-ops/VN-Replay-Data/releases/download/DATA/GOLD_2026_10.parquet",
           "revision": 1
         }
       ],
       "coverage_start": "2020-01-02T09:05:00",
-      "coverage_end": "2026-08-04T23:58:59",
-      "file_count": 80,
-      "total_rows": 23317500,
-      "total_size_bytes": 115734274,
+      "coverage_end": "2026-10-02T23:57:59",
+      "file_count": 82,
+      "total_rows": 23908840,
+      "total_size_bytes": 119460812,
       "digits": 2,
       "ticks_per_minute": 10,
-      "updated_at": "2026-09-28T03:43:49Z"
+      "updated_at": "2026-10-04T02:05:59Z"
     },
     "USDCAD": {
       "display_name": "USDCAD",
@@ -6149,5 +6179,5 @@
       "updated_at": "2026-09-28T03:43:49Z"
     }
   },
-  "updated_at": "2026-09-28T03:43:49Z"
+  "updated_at": "2026-10-04T02:05:59Z"
 }

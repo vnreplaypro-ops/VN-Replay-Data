@@ -9,13 +9,13 @@
     "ticks_per_minute": 10
   },
   "defaults": {
-    "timezone": "MT5 Broker",
+    "timezone": "UTC (MT5 Python API)",
     "compression": "zstd"
   },
   "symbols": {
     "GOLD": {
       "display_name": "GOLD",
-      "timezone": "MT5 Broker",
+      "timezone": "UTC (MT5 Python API)",
       "source": "MT5 OHLC M1 → VN Replay synthetic ticks",
       "files": [
         {
@@ -1236,27 +1236,27 @@
         {
           "period": "2026-10",
           "file": "GOLD_2026_10.parquet",
-          "rows": 27570,
-          "size_bytes": 173112,
-          "sha256": "3272b6764ddd3b07e34726b11f556a1599b2f9afb7616bb4fc6c83331e3ebc66",
+          "rows": 45610,
+          "size_bytes": 262413,
+          "sha256": "473c730eee123993ea67640599816773687429159608863ffee3d768f4ebe44e",
           "start": "2026-10-01T01:00:00",
-          "end": "2026-10-02T23:57:59",
+          "end": "2026-10-06T08:04:59",
           "digits": 2,
           "ticks_per_minute": 10,
-          "source_file": "GOLD_M1_202608030100_202610022357.csv",
-          "updated_at": "2026-10-04T02:05:56Z",
+          "source_file": "MT5_GOLD_202610060748_202610060804.csv",
+          "updated_at": "2026-10-06T08:05:13Z",
           "download_url": "https://github.com/vnreplaypro-ops/VN-Replay-Data/releases/download/DATA/GOLD_2026_10.parquet",
-          "revision": 1
+          "revision": 2
         }
       ],
       "coverage_start": "2020-01-02T09:05:00",
-      "coverage_end": "2026-10-02T23:57:59",
+      "coverage_end": "2026-10-06T08:04:59",
       "file_count": 82,
-      "total_rows": 23908840,
-      "total_size_bytes": 119460812,
+      "total_rows": 23926880,
+      "total_size_bytes": 119550113,
       "digits": 2,
       "ticks_per_minute": 10,
-      "updated_at": "2026-10-04T02:05:59Z"
+      "updated_at": "2026-10-06T08:05:20Z"
     },
     "USDCAD": {
       "display_name": "USDCAD",
@@ -6179,5 +6179,5 @@
       "updated_at": "2026-09-28T03:43:49Z"
     }
   },
-  "updated_at": "2026-10-04T02:05:59Z"
+  "updated_at": "2026-10-06T08:05:20Z"
 }

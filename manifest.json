@@ -4965,7 +4965,7 @@
     },
     "US100Cash": {
       "display_name": "US100Cash",
-      "timezone": "MT5 Broker",
+      "timezone": "UTC (MT5 Python API)",
       "source": "MT5 OHLC M1 → VN Replay synthetic ticks",
       "files": [
         {
@@ -6171,28 +6171,43 @@
         {
           "period": "2026-09",
           "file": "US100Cash_2026_09.parquet",
-          "rows": 262540,
-          "size_bytes": 1795911,
-          "sha256": "ecdf5a131ed234a8e075725afb17c0ec5c478a71d4e76f4a318318dea7d2c156",
+          "rows": 301150,
+          "size_bytes": 2061488,
+          "sha256": "ee129d1c51856dcab63f64a6848dce99458230309eaf11ae956afb0b23fa6a6f",
           "start": "2026-09-01T01:00:00",
-          "end": "2026-09-28T05:38:59",
+          "end": "2026-09-30T23:59:59",
           "digits": 2,
           "ticks_per_minute": 10,
-          "source_file": "US100Cash_M1_202001020905_202609280538.csv",
-          "updated_at": "2026-09-28T03:33:05Z",
+          "source_file": "MT5_US100Cash_202609280537_202610060819.csv",
+          "updated_at": "2026-10-06T08:20:14Z",
           "download_url": "https://github.com/vnreplaypro-ops/VN-Replay-Data/releases/download/DATA/US100Cash_2026_09.parquet",
+          "revision": 2
+        },
+        {
+          "period": "2026-10",
+          "file": "US100Cash_2026_10.parquet",
+          "rows": 45800,
+          "size_bytes": 313010,
+          "sha256": "b59ebb06545a87adb4ffb95cc1c237756a2dd2ce1b5af0ab2975ff76c3193db7",
+          "start": "2026-10-01T01:00:00",
+          "end": "2026-10-06T08:19:59",
+          "digits": 2,
+          "ticks_per_minute": 10,
+          "source_file": "MT5_US100Cash_202609280537_202610060819.csv",
+          "updated_at": "2026-10-06T08:20:23Z",
+          "download_url": "https://github.com/vnreplaypro-ops/VN-Replay-Data/releases/download/DATA/US100Cash_2026_10.parquet",
           "revision": 1
         }
       ],
       "coverage_start": "2020-01-02T09:05:00",
-      "coverage_end": "2026-09-28T05:38:59",
-      "file_count": 81,
-      "total_rows": 23699020,
-      "total_size_bytes": 156139942,
+      "coverage_end": "2026-10-06T08:19:59",
+      "file_count": 82,
+      "total_rows": 23783430,
+      "total_size_bytes": 156718529,
       "digits": 2,
       "ticks_per_minute": 10,
-      "updated_at": "2026-09-28T03:43:49Z"
+      "updated_at": "2026-10-06T08:20:26Z"
     }
   },
-  "updated_at": "2026-10-06T08:12:50Z"
+  "updated_at": "2026-10-06T08:20:26Z"
 }

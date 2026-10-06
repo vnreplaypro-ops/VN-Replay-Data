@@ -2490,7 +2490,7 @@
     },
     "BTCUSD": {
       "display_name": "BTCUSD",
-      "timezone": "MT5 Broker",
+      "timezone": "UTC (MT5 Python API)",
       "source": "MT5 OHLC M1 → VN Replay synthetic ticks",
       "files": [
         {
@@ -3696,27 +3696,42 @@
         {
           "period": "2026-09",
           "file": "BTCUSD_2026_09.parquet",
-          "rows": 391000,
-          "size_bytes": 2487175,
-          "sha256": "b2c74d7a79968813b120e201c1d4fcafcd8fdf83d37e3804986ce416006bd0bd",
+          "rows": 430800,
+          "size_bytes": 2755734,
+          "sha256": "463f99bc9fffe76478e04bf60b616aaf1cb550b697d40dabaff6b708d60bc2c3",
           "start": "2026-09-01T00:00:00",
-          "end": "2026-09-28T05:39:59",
+          "end": "2026-09-30T23:59:59",
           "digits": 2,
           "ticks_per_minute": 10,
-          "source_file": "BTCUSD_M1_202001020905_202609280539.csv",
-          "updated_at": "2026-09-28T03:09:12Z",
+          "source_file": "MT5_BTCUSD_202609280538_202610060811.csv",
+          "updated_at": "2026-10-06T08:12:39Z",
           "download_url": "https://github.com/vnreplaypro-ops/VN-Replay-Data/releases/download/DATA/BTCUSD_2026_09.parquet",
+          "revision": 2
+        },
+        {
+          "period": "2026-10",
+          "file": "BTCUSD_2026_10.parquet",
+          "rows": 76620,
+          "size_bytes": 452886,
+          "sha256": "ad5145202e83db8207767c45b5fe405d95001d415b0ea3809863606823eaf94d",
+          "start": "2026-10-01T00:00:00",
+          "end": "2026-10-06T08:11:59",
+          "digits": 2,
+          "ticks_per_minute": 10,
+          "source_file": "MT5_BTCUSD_202609280538_202610060811.csv",
+          "updated_at": "2026-10-06T08:12:48Z",
+          "download_url": "https://github.com/vnreplaypro-ops/VN-Replay-Data/releases/download/DATA/BTCUSD_2026_10.parquet",
           "revision": 1
         }
       ],
       "coverage_start": "2020-01-02T09:05:00",
-      "coverage_end": "2026-09-28T05:39:59",
-      "file_count": 81,
-      "total_rows": 32114140,
-      "total_size_bytes": 223857550,
+      "coverage_end": "2026-10-06T08:11:59",
+      "file_count": 82,
+      "total_rows": 32230560,
+      "total_size_bytes": 224578995,
       "digits": 2,
       "ticks_per_minute": 10,
-      "updated_at": "2026-09-28T03:43:49Z"
+      "updated_at": "2026-10-06T08:12:50Z"
     },
     "USDJPY": {
       "display_name": "USDJPY",
@@ -6179,5 +6194,5 @@
       "updated_at": "2026-09-28T03:43:49Z"
     }
   },
-  "updated_at": "2026-10-06T08:05:20Z"
+  "updated_at": "2026-10-06T08:12:50Z"
 }
